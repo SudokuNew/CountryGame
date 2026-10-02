@@ -28,3 +28,19 @@ body {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+@keyframes flowOut {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-100vw);
+        opacity: 0;
+    }
+}
+
+.screen-exit {
+    animation: flowOut 0.8s ease-in forwards;
+}
