@@ -2,24 +2,15 @@ body {
     font-family: Inter, system-ui, -apple-system, sans-serif;
 }
 
-
-#startButton {
-    background-color: #b3f5f0;
-    border: none;
-    color: #f5deb3;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+.screen-exit {
+    animation: flowOut 0.8s ease-in forwards;
 }
 
-#optionsButton {
-    background-color: #b3f5f0;
-    border: none;
-    color: #f5deb3;
+.button_main{
+    background-color: #FFFFFF;
+    border: 2px solid #005fa7;
+    border-radius: 5px;
+    color: #005fa7;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -41,6 +32,3 @@ body {
     }
 }
 
-.screen-exit {
-    animation: flowOut 0.8s ease-in forwards;
-}
