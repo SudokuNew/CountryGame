@@ -8,8 +8,8 @@ body {
 
 .button_main{
     background-color: #FFFFFF;
-    border: 2px solid #005fa7;
-    border-radius: 5px;
+    border: 6px solid #005fa7;
+    border-radius: 20px;
     color: #005fa7;
     padding: 15px 32px;
     text-align: center;
@@ -20,6 +20,11 @@ body {
     cursor: pointer;
 }
 
+#title{
+    font-size: 50px;
+    color: #F56A00;
+    text-align: center;
+}
 @keyframes flowOut {
     from {
         transform: translateY(0);
