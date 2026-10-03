@@ -3,7 +3,7 @@ const optionsButton = document.getElementById('optionsButton')
 const startMenu = document.getElementById('startMenu')
 
 startButton.addEventListener('click', () => {
-    startMenu.classList.add('screen-exit');
+    startMenu.classList.add('flowOut');
 });
 
 optionsButton.addEventListener('click', () => {
